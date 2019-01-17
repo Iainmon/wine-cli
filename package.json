@@ -1,8 +1,8 @@
 {
   "name": "wine-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "The cli client for wine.",
+  "main": "./bin/wine.js",
   "bin": {
     "wine": "./bin/wine.js"
   },
@@ -14,7 +14,9 @@
     "url": "git+https://github.com/Iainmon/wine-cli.git"
   },
   "keywords": [
-    "wine"
+    "wine",
+    "cli",
+    "grapejuice"
   ],
   "author": "Iain Moncrief",
   "license": "ISC",
@@ -24,7 +26,6 @@
   "homepage": "https://github.com/Iainmon/wine-cli#readme",
   "dependencies": {
     "chalk": "^2.4.2",
-    "commander": "^2.19.0",
     "readline-sync": "^1.4.9"
   }
 }
